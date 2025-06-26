@@ -222,3 +222,7 @@ The SQLite database is located at `/var/lib/pdns/pdns.sqlite3` inside the contai
 1. **Port conflicts**: Ensure ports 53 and 8081 are not in use
 2. **Permission issues**: The container runs as user `pdns`
 3. **API authentication**: Always include the `X-API-Key` header
+
+## License
+
+MIT License - see [`LICENSE`](./LICENSE) in this repo.
